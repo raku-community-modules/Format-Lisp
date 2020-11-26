@@ -15,12 +15,12 @@
       "Test"
    ],
    "support" : {
-      "source" : "https://github.com/drforr/perl6-Format-Lisp"
+      "source" : "https://github.com/raku-community-modules/Format-Lisp"
    },
    "perl" : "6.c",
    "build-depends" : [],
    "auth" : "github:drforr",
-   "source-url" : "https://github.com/drforr/perl6-Format-Lisp.git",
+   "source-url" : "https://github.com/raku-community-modules/Format-Lisp.git",
    "depends" : [
    ],
    "name" : "Format::Lisp",
@@ -29,5 +29,5 @@
    ],
    "version" : "0.0.1",
    "license" : "Artistic-2.0",
-   "description" : "Implement Common Lisp formatter for Perl 6"
+   "description" : "Implement Common Lisp formatter for Raku"
 }
