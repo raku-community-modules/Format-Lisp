@@ -1,33 +1,31 @@
 {
-   "meta6" : "0",
-   "tags" : [
-		"format",
-		"formatter",
-		"formatiing",
-		"Lisp"
-   ],
-   "provides" : {
-      "Format::Lisp" : "lib/Format/Lisp.pm6",
-      "Format::Lisp::Grammar" : "lib/Format/Lisp/Grammar.pm6",
-      "Format::Lisp::Actions" : "lib/Format/Lisp/Actions.pm6"
-   },
-   "test-depends" : [
-      "Test"
-   ],
-   "support" : {
-      "source" : "https://github.com/raku-community-modules/Format-Lisp"
-   },
-   "perl" : "6.c",
-   "build-depends" : [],
-   "auth" : "github:drforr",
-   "source-url" : "https://github.com/raku-community-modules/Format-Lisp.git",
-   "depends" : [
-   ],
-   "name" : "Format::Lisp",
-   "authors" : [
-      "Jeffrey Goff <drforr@pobox.com>"
-   ],
-   "version" : "0.0.1",
-   "license" : "Artistic-2.0",
-   "description" : "Implement Common Lisp formatter for Raku"
+  "name": "Format::Lisp",
+  "description": "Implement Common Lisp formatter for Raku",
+  "version": "0.0.2",
+  "perl": "6.c",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "auth": "github:drforr",
+  "depends": [],
+  "test-depends": [
+    "Test"
+  ],
+  "provides": {
+    "Format::Lisp": "lib/Format/Lisp.pm6",
+    "Format::Lisp::Actions": "lib/Format/Lisp/Actions.pm6",
+    "Format::Lisp::Grammar": "lib/Format/Lisp/Grammar.pm6"
+  },
+  "support": {
+    "source": "https://github.com/raku-community-modules/Format-Lisp"
+  },
+  "license": "Artistic-2.0",
+  "tags": [
+    "format",
+    "formatter",
+    "formatiing",
+    "Lisp"
+  ],
+  "source-url": "https://github.com/raku-community-modules/Format-Lisp.git",
+  "meta6": "0"
 }
