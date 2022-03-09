@@ -19,12 +19,12 @@ Installation
 To run tests:
 
 ```
-    prove -e perl6
+zef test .
 ```
 
 ## Author
 
-Jeffrey Goff, DrForr on #perl6, https://github.com/drforr/
+Originally: late Jeffrey Goff, DrForr on #perl6, https://github.com/drforr/
 
 ## License
 
