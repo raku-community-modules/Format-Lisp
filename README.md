@@ -3,7 +3,7 @@ Format::Lisp
 
 Implementing Common Lisp's (format) language for Perl 6 - Mostly because it's
 an interesting challenge, but partially because it offers much more powerful
-options than any sprintf-style formatter, including Python and Ruby's.
+options than any `sprintf`-style formatter, including Python and Ruby's.
 
 Installation
 ============

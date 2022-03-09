@@ -20,7 +20,8 @@ Implements the Common Lisp (format) function.
 
 =begin SPEC_DIFFERENCES
 
-In Lisp, ~& only adds a newline if there wasn't a newline on STDOUT previously.
+In Lisp, C<~&> only adds a newline if there wasn't a newline on STDOUT
+previously.
 
 =end SPEC_DIFFERENCES
 
