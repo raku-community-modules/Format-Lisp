@@ -3,7 +3,10 @@ Format::Lisp
 
 Implementing Common Lisp's (format) language for Perl 6 - Mostly because it's
 an interesting challenge, but partially because it offers much more powerful
-options than any `sprintf`-style formatter, including Python and Ruby's.
+options than any `sprintf`-style formatter, including Python and Ruby's. 
+Check out [source](lib/Format/Lisp.pm6) for the instructions, or [this 
+reference manual](https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node200.html).
+
 
 Installation
 ============
@@ -20,6 +23,17 @@ To run tests:
 
 ```
 zef test .
+```
+
+# Synopsis
+
+```raku
+use Format::Lisp;
+
+my $fl = Format::Lisp.new;
+say $fl.format( "~~,,'~c:~c", ',', 'X' );
+my $func = $fl.formatter( "x~ax" );
+
 ```
 
 ## Author
