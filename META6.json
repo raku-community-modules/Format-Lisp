@@ -6,7 +6,7 @@
   "authors": [
     "Jeffrey Goff <drforr@pobox.com>"
   ],
-  "auth": "github:drforr",
+  "auth": "zef:raku-community-modules",
   "depends": [],
   "test-depends": [
     "Test"
