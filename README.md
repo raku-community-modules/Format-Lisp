@@ -1,4 +1,3 @@
-# Format::Lisp [![Build Status](https://secure.travis-ci.org/drforr/perl6-Format-Lisp.svg?branch=master)](http://travis-ci.org/drforr/perl6-Format-Lisp)
 Format::Lisp
 ============
 
