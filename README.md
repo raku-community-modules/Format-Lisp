@@ -1,4 +1,4 @@
-Format::Lisp
+Format::Lisp [![Tests on source](https://github.com/raku-community-modules/Format-Lisp/actions/workflows/test.yaml/badge.svg)](https://github.com/raku-community-modules/Format-Lisp/actions/workflows/test.yaml)
 ============
 
 Implementing Common Lisp's (format) language for Perl 6 - Mostly because it's
