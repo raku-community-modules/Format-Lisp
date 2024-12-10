@@ -1,45 +1,48 @@
-Format::Lisp [![Tests on source](https://github.com/raku-community-modules/Format-Lisp/actions/workflows/test.yaml/badge.svg)](https://github.com/raku-community-modules/Format-Lisp/actions/workflows/test.yaml)
-============
+[![Actions Status](https://github.com/raku-community-modules/Format-Lisp/actions/workflows/linux.yml/badge.svg)](https://github.com/raku-community-modules/Format-Lisp/actions) [![Actions Status](https://github.com/raku-community-modules/Format-Lisp/actions/workflows/macos.yml/badge.svg)](https://github.com/raku-community-modules/Format-Lisp/actions) [![Actions Status](https://github.com/raku-community-modules/Format-Lisp/actions/workflows/windows.yml/badge.svg)](https://github.com/raku-community-modules/Format-Lisp/actions)
 
-Implementing Common Lisp's (format) language for Perl 6 - Mostly because it's
-an interesting challenge, but partially because it offers much more powerful
-options than any `sprintf`-style formatter, including Python and Ruby's. 
-Check out [source](lib/Format/Lisp.pm6) for the instructions, or [this 
-reference manual](https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node200.html).
+NAME
+====
 
+Format::Lisp - Common Lisp formatter
 
-Installation
-============
-
-* Using zef (a module management tool bundled with Rakudo Star):
-
-```
-    zef update && zef install Format::Lisp
-```
-
-## Testing
-
-To run tests:
-
-```
-zef test .
-```
-
-# Synopsis
+SYNOPSIS
+========
 
 ```raku
-use Format::Lisp;
-
 my $fl = Format::Lisp.new;
 say $fl.format( "~~,,'~c:~c", ',', 'X' );
 my $func = $fl.formatter( "x~ax" );
-
 ```
 
-## Author
+DESCRIPTION
+===========
 
-Originally: late Jeffrey Goff, DrForr on #perl6, https://github.com/drforr/
+Implements the Common Lisp (format) function.
 
-## License
+SPEC_DIFFERENCES
+================
 
-Artistic License 2.0
+In Lisp, `~&` only adds a newline if there wasn't a newline on STDOUT previously.
+
+METHODS
+=======
+
+format( Str $format-string, *@args )
+------------------------------------
+
+Given a format string and the appropriate (if any) args, return the formatted output
+
+AUTHOR
+======
+
+Jeffrey Goff
+
+COPYRIGHT AND LICENSE
+=====================
+
+Copyright 2017 Jeffrey Goff
+
+Copyright 2020 - 2024 Raku Community
+
+This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+
