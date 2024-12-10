@@ -1,4 +1,7 @@
 Revision history for Format::Lisp
 
 {{$NEXT}}
+
+0.0.3  2024-12-10T19:53:23+01:00
     - Initial version as a Raku Community module
+    - Modernized file extensions and pod
